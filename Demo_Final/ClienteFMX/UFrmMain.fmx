@@ -1,0 +1,122 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 430
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 430.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Align = Left
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'refreshtoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 350.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Listado de Paises'
+      TabOrder = 1
+    end
+  end
+  object ListView1: TListView
+    ItemAppearanceClassName = 'TListItemRightDetailAppearance'
+    ItemEditAppearanceClassName = 'TListItemRightDetailDeleteAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Size.Width = 430.000000000000000000
+    Size.Height = 440.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object EMSProvider1: TEMSProvider
+    ApiVersion = '2'
+    URLHost = '190.142.0.44'
+    URLPort = 8080
+    Left = 40
+    Top = 112
+  end
+  object EMSFireDACClient1: TEMSFireDACClient
+    Provider = EMSProvider1
+    SchemaAdapter = FDSchemaAdapter1
+    Resource = 'coderage2020/country/'
+    Left = 40
+    Top = 184
+  end
+  object FDSchemaAdapter1: TFDSchemaAdapter
+    Left = 40
+    Top = 248
+  end
+  object FDTableAdapter1: TFDTableAdapter
+    SchemaAdapter = FDSchemaAdapter1
+    DatSTableName = 'qryCOUNTRY'
+    Left = 40
+    Top = 312
+  end
+  object FDMemTable1: TFDMemTable
+    FieldDefs = <>
+    CachedUpdates = True
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    Adapter = FDTableAdapter1
+    StoreDefs = True
+    Left = 40
+    Top = 376
+    object FDMemTable1COUNTRY: TStringField
+      FieldName = 'COUNTRY'
+    end
+    object FDMemTable1CURRENCY: TStringField
+      FieldName = 'CURRENCY'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTable1
+    ScopeMappings = <>
+    Left = 184
+    Top = 280
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 292
+    Top = 317
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'COUNTRY'
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'CURRENCY'
+          ControlMemberName = 'Detail'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'FMX'
+    Left = 184
+    Top = 200
+  end
+end

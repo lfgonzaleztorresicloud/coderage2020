@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "UDmMain.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma classgroup "Vcl.Controls.TControl"
+#pragma resource "*.dfm"
+TDmMain *DmMain;
+//---------------------------------------------------------------------------
+__fastcall TDmMain::TDmMain(TComponent* Owner)
+	: TDataModule(Owner)
+{
+}
+//---------------------------------------------------------------------------
+ TEmployeeStructArray __fastcall TDmMain::GetEmployees(void)
+ {
+	TEmployeeStructArray employees;
+    std::unitbuf()
+ }

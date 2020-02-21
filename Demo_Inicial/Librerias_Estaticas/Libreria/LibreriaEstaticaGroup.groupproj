@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{19D7C691-99E0-4479-BEB4-6D54164D9B84}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CalculadoraEstatica.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Cliente\ClienteStatica.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CalculadoraEstatica">
+        <MSBuild Projects="CalculadoraEstatica.cbproj"/>
+    </Target>
+    <Target Name="CalculadoraEstatica:Clean">
+        <MSBuild Projects="CalculadoraEstatica.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculadoraEstatica:Make">
+        <MSBuild Projects="CalculadoraEstatica.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="ClienteStatica">
+        <MSBuild Projects="..\Cliente\ClienteStatica.cbproj"/>
+    </Target>
+    <Target Name="ClienteStatica:Clean">
+        <MSBuild Projects="..\Cliente\ClienteStatica.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ClienteStatica:Make">
+        <MSBuild Projects="..\Cliente\ClienteStatica.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CalculadoraEstatica;ClienteStatica"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CalculadoraEstatica:Clean;ClienteStatica:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CalculadoraEstatica:Make;ClienteStatica:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 21:48:37.000.565,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:48:37.000.785,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:48:38.000.753,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 21:49:07.000.018,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\FormUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:49:07.000.018,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.h=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\FormUnit1.h</Transaction>
+    <Transaction>2020/02/16 21:49:07.000.018,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\FormUnit1.dfm</Transaction>
+    <Transaction>2020/02/16 21:49:12.000.519,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.h=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\WebModuleUnit1.h</Transaction>
+    <Transaction>2020/02/16 21:49:12.000.519,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2020/02/16 21:49:12.000.519,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:49:14.000.362,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 21:49:20.000.315,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\WebServerDemo.cbproj</Transaction>
+    <Transaction>2020/02/16 21:49:20.000.300,C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\WebServerDemoPCH1.h</Transaction>
+    <Transaction>2020/02/16 21:49:41.000.064,=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:50:09.000.939,C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Unit1.h=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\UDmMain.h</Transaction>
+    <Transaction>2020/02/16 21:50:09.000.939,C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Unit1.cpp=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\UDmMain.cpp</Transaction>
+    <Transaction>2020/02/16 21:50:09.000.939,C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\Unit1.dfm=C:\CodeRage2020\Demo_Inicial\WebServerApp\Servidor\UDmMain.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

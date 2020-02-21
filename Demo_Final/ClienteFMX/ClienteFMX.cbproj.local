@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/02/17 01:50:38.958,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/17 01:50:39.115,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/17 01:50:59.608,C:\CodeRage2020\Demo_Final\ClienteFMX\UFrmMain.fmx=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/02/17 01:50:59.608,C:\CodeRage2020\Demo_Final\ClienteFMX\UFrmMain.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020/02/17 01:50:59.608,C:\CodeRage2020\Demo_Final\ClienteFMX\UFrmMain.cpp=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/17 01:51:01.000,C:\CodeRage2020\Demo_Final\ClienteFMX\Project1PCH1.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/17 01:51:06.046,C:\CodeRage2020\Demo_Final\ClienteFMX\ClienteFMXPCH1.h=C:\CodeRage2020\Demo_Final\ClienteFMX\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/17 01:51:06.077,C:\CodeRage2020\Demo_Final\ClienteFMX\ClienteFMX.cbproj=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile Android="ce11171ba4384a1604"/>
+    <PMacOSX iOSDevice32="_iosdevice_00008020-000334922186002E" iOSDevice64="_iosdevice_00008020-000334922186002E"/>
+  </ActiveMobileDevice>
+</BorlandProject>

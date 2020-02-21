@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/02/16 22:49:59.907,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\FormUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:50:00.126,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\ServerMethodsUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:50:00.266,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\ServerContainerUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:50:00.407,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:50:00.517,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\base64.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.532,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.563,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\json2.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.595,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\callbackframework.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.626,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\serverfunctions.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.641,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\base64-min.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.673,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\json2-min.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.689,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2020/02/16 22:50:00.704,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\js\callbackframework-min.js</Transaction>
+    <Transaction>2020/02/16 22:54:39.722,=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:54:46.175,C:\CodeRage2020\Demo_Inicial\DataSnap\Server\UDmMain.dfm=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\Unit1.dfm</Transaction>
+    <Transaction>2020/02/16 22:54:46.175,C:\CodeRage2020\Demo_Inicial\DataSnap\Server\UDmMain.h=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\Unit1.h</Transaction>
+    <Transaction>2020/02/16 22:54:46.175,C:\CodeRage2020\Demo_Inicial\DataSnap\Server\UDmMain.cpp=C:\CodeRage2020\Demo_Inicial\DataSnap\Server\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

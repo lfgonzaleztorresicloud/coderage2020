@@ -1,0 +1,74 @@
+// ************************************************************************ //
+// Invokable interface declaration header for CodeRage2020
+// ************************************************************************ //
+#ifndef   UDemoH
+#define   UDemoH
+
+#include <System.hpp>
+#include <Soap.InvokeRegistry.hpp>
+#include <Soap.XSBuiltIns.hpp>
+#include <System.Types.hpp>
+
+// ************************************************************************ //
+//  Enums exposed via SOAP must be byte-aligned
+// ************************************************************************ //
+#pragma option -b-
+enum SampleEnum
+{
+  etNone,
+  etAFew,
+  etSome,
+  etALot
+};
+#pragma option -b.
+
+// ************************************************************************ //
+//  To expose complex types via SOAP, the type must derive from TRemotable
+//  All published members of the type will be exposed.
+// ************************************************************************ //
+class TSampleStruct : public TRemotable {
+private:
+  AnsiString         FLastName;
+  AnsiString         FFirstName;
+  double             FSalary;
+__published:
+  __property AnsiString    LastName = { read=FLastName, write=FLastName };
+  __property AnsiString    FirstName = { read=FFirstName, write=FFirstName };
+  __property double        Salary = { read=FSalary, write=FSalary };
+};
+
+class TEmployeeStruct : public TRemotable {
+private:
+__published:
+	__property int    EmpNo     = {read=FEmpNo, write=FEmpNo};
+	__property String FirstName = {read=FFirstName, write=FFirstName};
+	__property String LastName  = {read=FLastName, write=FLastName};
+};
+
+// ************************************************************************ //
+//  Remotable arrays must be Dynamic arrays since they must be discoverable
+//  at runtime.
+// ************************************************************************ //
+typedef DynamicArray<double>  TDoubleArray;
+typedef DynamicArray<TEmployeeStruct> TEmployeeStructArray;
+
+
+// ************************************************************************ //
+//  Invokable interfaces must derive from IInvokable
+//  The methods of the interface will be exposed via SOAP
+// ************************************************************************ //
+__interface INTERFACE_UUID("{F93574A2-7E0D-4AE9-BADE-91261AA51AE4}") ICodeRage2020 : public IInvokable
+{
+public:
+    virtual SampleEnum     echoEnum(SampleEnum eValue) = 0;
+    virtual TDoubleArray   echoDoubleArray(const TDoubleArray daValue) = 0;
+    virtual TSampleStruct* echoStruct(const TSampleStruct* pEmployee) = 0;
+    virtual double         echoDouble(double dValue) = 0;
+};
+typedef DelphiInterface<ICodeRage2020> _di_ICodeRage2020;
+
+
+#endif // CodeRage2020H
+//---------------------------------------------------------------------------
+
+

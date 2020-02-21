@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A00A8E1B-2084-4E06-AC63-E6F28E480F92}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Libreria\CodeRage2020_Dinamica.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Cliente\Cliente_Dinamica.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CodeRage2020_Dinamica">
+        <MSBuild Projects="Libreria\CodeRage2020_Dinamica.cbproj"/>
+    </Target>
+    <Target Name="CodeRage2020_Dinamica:Clean">
+        <MSBuild Projects="Libreria\CodeRage2020_Dinamica.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CodeRage2020_Dinamica:Make">
+        <MSBuild Projects="Libreria\CodeRage2020_Dinamica.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Cliente_Dinamica">
+        <MSBuild Projects="Cliente\Cliente_Dinamica.cbproj"/>
+    </Target>
+    <Target Name="Cliente_Dinamica:Clean">
+        <MSBuild Projects="Cliente\Cliente_Dinamica.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Cliente_Dinamica:Make">
+        <MSBuild Projects="Cliente\Cliente_Dinamica.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CodeRage2020_Dinamica;Cliente_Dinamica"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CodeRage2020_Dinamica:Clean;Cliente_Dinamica:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CodeRage2020_Dinamica:Make;Cliente_Dinamica:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UOpciones.h"
+#include "UFrmOpciones.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+/* Invoca al Formulario de Opciones y retorna la opcion respectiva */
+int invocar_formulario() {
+	int _return = -1;
+	frmOpciones = new TfrmOpciones(NULL);
+	if(frmOpciones->ShowModal() == mrOk) {
+		_return = frmOpciones->
+    }
+}

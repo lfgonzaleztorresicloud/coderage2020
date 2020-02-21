@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 23:18:29.000.764,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 23:18:31.000.123,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 23:18:48.000.966,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\Unit1.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020/02/16 23:18:48.000.966,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\Unit1.cpp=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 23:18:48.000.966,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\Unit1.fmx=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/02/16 23:18:51.000.483,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\Project1PCH1.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 23:18:54.000.904,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\ClienteDemo.cbproj=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020/02/16 23:18:54.000.889,C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\ClienteDemoPCH1.h=C:\CodeRage2020\Demo_Inicial\RADServer\Cliente\Project1PCH1.h</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="ce11171ba4384a1604"/>
+		<PMacOSX iOSDevice64="_iosdevice_00008020-000334922186002E" iOSDevice32="_iosdevice_00008020-000334922186002E"/>
+	</ActiveMobileDevice>
+</BorlandProject>

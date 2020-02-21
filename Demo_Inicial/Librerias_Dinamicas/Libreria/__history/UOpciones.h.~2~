@@ -1,0 +1,10 @@
+//---------------------------------------------------------------------------
+
+#ifndef UOpcionesH
+#define UOpcionesH
+//---------------------------------------------------------------------------
+
+/* Invoca al Formulario de Opciones y retorna la opcion respectiva */
+int invocar_formulario();
+
+#endif

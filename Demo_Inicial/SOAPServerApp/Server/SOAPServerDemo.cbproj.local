@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 22:20:43.000.757,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:20:43.000.882,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 22:20:43.000.524,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:20:53.000.757,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\CodeRage2020.cpp</Transaction>
+    <Transaction>2020/02/16 22:25:39.000.995,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\CodeRage2020.cpp=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\UDemo.cpp</Transaction>
+    <Transaction>2020/02/16 22:25:39.000.995,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\CodeRage2020.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\UDemo.h</Transaction>
+    <Transaction>2020/02/16 22:25:42.000.417,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\FormUnit1.dfm</Transaction>
+    <Transaction>2020/02/16 22:25:42.000.417,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\FormUnit1.h</Transaction>
+    <Transaction>2020/02/16 22:25:42.000.417,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\FormUnit1.cpp=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\FormUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:25:45.000.605,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.cpp=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\WebModuleUnit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:25:45.000.605,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2020/02/16 22:25:45.000.605,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\WebModuleUnit1.h</Transaction>
+    <Transaction>2020/02/16 22:25:48.000.526,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 22:25:54.000.902,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\SOAPServerDemo.cbproj</Transaction>
+    <Transaction>2020/02/16 22:25:54.000.886,C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\SOAPServerDemoPCH1.h</Transaction>
+    <Transaction>2020/02/16 22:29:38.000.268,=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 22:29:45.000.064,C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Unit1.h=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\UDmMain.h</Transaction>
+    <Transaction>2020/02/16 22:29:45.000.064,C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Unit1.dfm=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\UDmMain.dfm</Transaction>
+    <Transaction>2020/02/16 22:29:45.000.064,C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\Unit1.cpp=C:\CodeRage2020\Demo_Inicial\SOAPServerApp\Server\UDmMain.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 19:36:43.000.771,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2020/02/16 19:36:43.000.755,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 19:37:04.000.630,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\File1.cpp=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UMain.cpp</Transaction>
+    <Transaction>2020/02/16 19:37:07.000.388,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 19:37:16.000.194,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Project1PCH1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\CodeRage2020_DinamicaPCH1.h</Transaction>
+    <Transaction>2020/02/16 19:37:16.000.210,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\CodeRage2020_Dinamica.cbproj</Transaction>
+    <Transaction>2020/02/16 19:38:09.000.710,=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 19:38:17.000.428,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.dfm=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UFrmOpciones.dfm</Transaction>
+    <Transaction>2020/02/16 19:38:17.000.428,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UFrmOpciones.h</Transaction>
+    <Transaction>2020/02/16 19:38:17.000.428,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.cpp=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UFrmOpciones.cpp</Transaction>
+    <Transaction>2020/02/16 19:43:36.000.078,=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 19:44:04.000.451,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UOpciones.h</Transaction>
+    <Transaction>2020/02/16 19:44:04.000.451,C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\Unit1.cpp=C:\CodeRage2020\Demo_Inicial\Librerias_Dinamicas\Libreria\UOpciones.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

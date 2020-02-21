@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 20:23:10.000.683,C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\CalculadoraEstatica.cbproj</Transaction>
+    <Transaction>2020/02/16 20:23:16.000.496,=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 20:23:24.000.481,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\Unit1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\UCalculadora.h</Transaction>
+    <Transaction>2020/02/16 20:23:24.000.481,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\Unit1.cpp=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\UCalculadora.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

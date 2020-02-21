@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "UCalculadora.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+extern "C" int sumar(const int, const int)
+{
+	return x + y;
+}
+extern "C" int restar(const int, const int)
+{
+	return x - y;
+}
+extern "C" int multiplicar(const int, const int)
+{
+	return x * y;
+}
+extern "C" int dividir(const int, const int)
+{
+    return x / y;
+}

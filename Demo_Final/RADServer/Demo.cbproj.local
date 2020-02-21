@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020/02/17 01:49:29.234,=rtl.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.234,=emsserverapi.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.250,=emsserverresource.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.250,=FireDACCommon.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.250,=dbrtl.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.250,=FireDACCommonDriver.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.266,=FireDAC.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.266,=FireDACIBDriver.bpi</Transaction>
+    <Transaction>2020/02/17 01:49:29.312,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/17 01:49:52.640,C:\CodeRage2020\Demo_Final\RADServer\UMainEndpoints.dfm=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/02/17 01:49:52.640,C:\CodeRage2020\Demo_Final\RADServer\UMainEndpoints.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020/02/17 01:49:52.640,C:\CodeRage2020\Demo_Final\RADServer\UMainEndpoints.cpp=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/17 01:49:54.687,C:\CodeRage2020\Demo_Final\RADServer\Project1.cbproj=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020/02/17 01:50:03.093,C:\CodeRage2020\Demo_Final\RADServer\Demo.cbproj=C:\CodeRage2020\Demo_Final\RADServer\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/02/16 21:04:38.000.677,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 21:04:38.000.755,=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:04:55.000.437,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\UFrmCliente.cpp=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020/02/16 21:04:55.000.437,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\UFrmCliente.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020/02/16 21:04:55.000.437,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\UFrmCliente.dfm=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/02/16 21:04:57.000.480,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\Project1PCH1.h=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 21:05:05.000.870,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\ClienteStatica.cbproj=C:\Users\lfgonzalez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020/02/16 21:05:05.000.854,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\ClienteStaticaPCH1.h=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\Project1PCH1.h</Transaction>
+    <Transaction>2020/02/16 21:09:51.000.215,=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\File1.h</Transaction>
+    <Transaction>2020/02/16 21:09:59.000.896,C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\UCalculadora.h=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Cliente\File1.h</Transaction>
+    <Transaction>2020/02/16 21:13:33.000.024,=C:\CodeRage2020\Demo_Inicial\Librerias_Estaticas\Libreria\Win32\Debug\CalculadoraEstatica.lib</Transaction>
+  </Transactions>
+</BorlandProject>

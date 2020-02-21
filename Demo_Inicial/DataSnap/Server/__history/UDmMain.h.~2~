@@ -1,0 +1,18 @@
+//---------------------------------------------------------------------------
+
+#ifndef UDmMainH
+#define UDmMainH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+//---------------------------------------------------------------------------
+class TDmMain : public TDataModule
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall TDmMain(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TDmMain *DmMain;
+//---------------------------------------------------------------------------
+#endif

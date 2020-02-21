@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+
+#pragma hdrstop
+
+#include "UDmMain.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma classgroup "Vcl.Controls.TControl"
+#pragma resource "*.dfm"
+TDmMain *DmMain;
+//---------------------------------------------------------------------------
+__fastcall TDmMain::TDmMain(TComponent* Owner)
+	: TDataModule(Owner)
+{
+}
+//---------------------------------------------------------------------------
+TJSONArray * __fastcall TDmMain::GetCountries(void) {
+	std::unique_ptr<TJSONArray> _return(new TJSONArray());
+	std::unique_ptr<TFDQuery> qry(new TFDQuery(NULL));
+	CountryTable->Active = true;
+	while(!CountryTable->Eof) {
+		TJSONObject * country = new TJSONObject();
+		country->AddPair("country", qry->FieldByName("country")->AsString);
+        country->AddPair("currency", qry->FieldByName("currency")->AsString);
+		CountryTable->Next();
+    }
+    return _return;
+}
+//---------------------------------------------------------------------------

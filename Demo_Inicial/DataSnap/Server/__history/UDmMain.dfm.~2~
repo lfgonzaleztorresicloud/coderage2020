@@ -1,0 +1,5 @@
+object DmMain: TDmMain
+  OldCreateOrder = False
+  Height = 368
+  Width = 409
+end
